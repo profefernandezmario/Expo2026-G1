@@ -1,382 +1,574 @@
-<!-- controlado y señalado los errores.... -->
-
 <!DOCTYPE html>
 <html lang="es-AR">
-  <head>
-    <link rel="shortcut icon" href="/iconosexpo/dispositivo.png">
+<head>
+     <link rel="shortcut icon" href="iconosexpo/dispositivo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CiberSeguridad</title>
-    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous">
-    <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
-    <meta name="description"
-      content="Trabajo Practico para exhibir en la EXPO 2026">
-    <meta name="author"
-      content="Desarrollador Web Jr. - Grupo Lunes y Martes - Docente Mario R. Fernandez">
-    <meta name="keywords"
-      content="HTML5, CSS3, desarrollo web, efp7, resistencia, expo, educacion tecnica, grupo 1, Frontend">
-    <!-- lo siguiente Indica a los rastreadores de los buscadores si deben indexar la página o seguir los enlaces. -->
-    <meta name="robots" content="index, follow">
-  </head>
-  <body class="body">
-    <header>
-      <nav class="navbar navbar-expand-md bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="Index.html" target="_self"><img
-              src="imagenexpo/Logos/efp-logo-blanco.jpeg" alt width="100px"
-              height="50px"></a>
-          <div class="navbar navbar-expand-md bg-body-tertiary">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <!-- metas agregados por el docente Fernandez, Mario -->
+    <meta name="description" content="trabajo integrador preparatorio para el examen final de FrontEnd - 2026">
+  <meta name="author" content="Grupo #1 - Lunes y Martes 14-18hs">
+  <meta name="keywords"
+    content="HTML5, CSS3, desarrollo web, Ciberseguridad, efp7, resistencia, chaco, educacion, formacion profesional">
+  <!-- lo siguiente Indica a los rastreadores de los buscadores si deben indexar la página o seguir los enlaces. -->
+  <meta name="robots" content="index, follow">
+</head>
+<body class="body">
+  <header>
+        <nav class="navbar navbar-expand-md">
             <div class="container">
-              <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"
-                      href="#http://127.0.0.1:5500/fron/pamela%20farias/FRON/trabajoexpo/Index.html"></a>
-                  </li>
-
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false">Concepto</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="1.Tema.html"
-                          target="_self">Ciberseguridad</a></li>
-                      <li><a class="dropdown-item" href="2.Tema.html"
-                          target="_self">Importancia</a></li>
-                    </ul></li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false">Buenas Prácticas</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="3.Tema.html"
-                          target="_self">Introduccion</a></li>
-                      <li><a class="dropdown-item" href="4.Tema.html"
-                          target="_self">Entorno Profesional</a></li>
-                    </ul></li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false">Amenazas</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="5.Tema.html"
-                          target="_self">¿Cuál son?</a></li>
-                      <li><a class="dropdown-item" href="6.Tema.html"
-                          target="_self">Prevención</a></li>
-                    </ul></li>
+                <a class="navbar-brand" href="index.html" target="_self"><img
+                        src="imagenexpo/Logos/efp-logo-blanco.jpeg" alt="" width="100px"
+                        height="50px"></a>
+                <div class="navbar navbar-expand-md">
+                    <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                             aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" 
+                                    href="index.html"></a>
+                                </li>
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown"
+                                        aria-expanded="false">Concepto</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="1.Tema.html" target="_self">Ciberseguridad</a></li>
+                                            <li><a class="dropdown-item" href="#" target="_self">Importancia</a></li>
+                                        </ul></li>
+ <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown"
+                                        aria-expanded="false">Buenas Prácticas</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="3.Tema.html" target="_self">Introduccion</a></li>
+                                            <li><a class="dropdown-item" href="4.Tema.html" target="_self" >Entorno Profesional</a></li>
+                                        </ul></li>
+ <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" 
+                                    data-bs-toggle="dropdown"
+                                        aria-expanded="false">Amenazas</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="5.Tema.html" target="_self">¿Cuál son?</a></li>
+                                            <li><a class="dropdown-item" href="6.Tema.html" target="_self" >Prevención</a></li>
+                                        </ul></li>
+                    </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </nav>
-          <br>
-
-        </header>
-        <h1 class="xxx" id="2.Tema.html"></h1>
-
-        <div class="container-fluid">
-        </head>
-
-        <h1><b>La Importancia de la Ciberseguridad</b></h1>
+        </nav>
         <br>
-        <ul>
-          <li>Ciberseguridad en hogares</li>
-          <li>Escuelas</li>
-          <li>Empresa</li>
-          <li>bancos</li>
-          <li>hospitales</li>
-          <li>Organismos Públicos</li>
-          <li>Infraestructura crítica</li>
-        </ul>
-        <br>
-        <h3><b>La Ciberseguridad en Hogares</b></h3>
-        <p>La ciberseguridad en hogares: "Se refiere al conjunto de prácticas,
-          tecnologias y procesos diseñados para
-          proteger los dispositivos qué estan conectados,</p>
-        <p>la información personal y la privacidad de los miembros de una
-          familia frentes a las amenazas digitales como los
-          virus, phishing, robos de identidad y ataques informáticos"</p>
-        <p>Proteger tu hogar digital requiere asegurar la red Wi-Fi, mantener
-          dispositivos actualizados y aplicar buenas
-          prácticas de seguridad para reducir riesgos de ciberataques.</p>
-        <br>
+<main>
+     <div class="container">
+    </head>
+      <h1 >
+    <h1 class="fw-bold text-center mb-5"  id="2.Tema.html" >La Importancia de la Ciberseguridad</h1>
+      <br>
+      <ul>
+        <li>Ciberseguridad en hogares</li>
+        <li>Escuelas</li>
+        <li>Empresa</li>
+        <li>bancos</li>
+        <li>hospitales</li>
+        <li>Organismos Públicos</li>
+        <li>Infraestructura crítica</li>
+      </ul>
+      <br>
+      <h2 class="fw-bold text-center mb-5" >La Ciberseguridad en Hogares</h2>
+      La ciberseguridad en hogares: "Se refiere al conjunto de prácticas, tecnologias y procesos diseñados para
+        proteger los dispositivos qué estan conectados,<br>
+       la información personal y la privacidad de los miembros de una familia frentes a las amenazas digitales como los
+        virus, phishing, robos de identidad y ataques informáticos"<br>
+        Proteger tu hogar digital requiere asegurar la red Wi-Fi, mantener dispositivos actualizados y aplicar buenas
+          prácticas de seguridad para reducir riesgos de ciberataques.
+      <br>
 
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <img src="CIBERSEGURIDAD EN HOGARES.webp"
-              alt="ciberseguridad en los hogares">
 
-            <br>
-            <h1><b>La ciberseguridad en las Escuelas</b></h1>
-            <br>
-            <p>La Educación es un factor clave en la vida de todos y por ende
-              deben proporcionar a los chicos jovenes no solo herramientas
-              básicas sino también habilidades necesarias para el día a día y
-              para su futuro</p>
-            <p>La ciberseguridad en las Escuelas: es fundamental para proteger
-              la privacidad de los alumnos, resguardar los datos institucionales
-              y garantizar la continuidad.</p>
-            <mark>La formación Académica debe ir a la par de un correcto uso de
-              internet y de cuidar y proteger la privacidad de la información.
-              Fomentar desde la temprana edad prácticas qué resulten en el
-              cuidado de los riesgos qué se enfrentan como el sexting,
-              Ciberacoso, Suplantación de identidad y demás délitos qué se
-              puedan cometer atraves de la web</mark>
-            <p>Es necesario qué se incluya en la Formación Académica la
-              enseñanza de habilidades de seguridad en Línea, como la creación
-              de contraseña seguras, la identificación de posibles amenazas y la
-              protección de la privacidad.</p>
-            <br>
-            <ol>
-              <li>Supervisar el uso de internet: los padres e instituciones
-                deben supervisar el uso de Internet de los
-                niños y asegurarse de que solo visiten sitios web apropiados
-                para su edad.</li>
-              <li>Enseñar a los niños a no compartir información personal sobre
-                todo en redes sociales: los padres e
-                instituciones deben enseñar a los niños a no compartir
-                información personal en línea, como su nombre
-                completo, dirección, número de teléfono, escuela, etc.</li>
-              <li>Usar contraseñas seguras: los niños deben usar contraseñas
-                seguras y no compartirlas con nadie, ni con
-                sus amigos.</li>
-              <li>No hablar con extraños en línea: los niños deben aprender que
-                no deben hablar con extraños en internet y
-                que deben informar a un adulto si alguien desconocido trata de
-                contactarlos.</li>
-              <li>Usar software antivirus: los padres e instituciones pueden
-                instalar software antivirus en las
-                computadoras de los niños para protegerlos de virus y
-                malware.</li>
-            </ol>
-            <br>
-            <figure>
-              <img src="CIBERSEGURIDAD EDUCATIVA.jpg"
-                alt="ciberseguridad EDUCATIVA" srcset>
-            </figure>
-            <br>
-            <h3><b>La ciberseguridad en las Empresas</b></h3>
-            <br>
-            <p>"Se puede definir como una estrategia enfocadas en proteger
-              equipos, redes, Software, datos, y sistema
-              criticos de una compañia con el objetivo
-              de garantizar la seguridad de las operaciones, brindar confianza a
-              los clientes y cumplir con la
-              normatividad"</p>
-            <p>La ciberseguridad en las empresas es el conjunto de tecnologías,
-              procesos y políticas diseñados para
-              proteger los sistemas, redes, dispositivos y datos frente a
-              accesos no autorizados, ataques digitales o
-              interrupciones operativas</p>
-            <p>La ciberseguridad (o seguridad informática) es el conjunto de
-              prácticas, procesos y tecnologías
-              diseñadas para proteger redes, dispositivos, programas y datos
-              frente a ataques, daños o accesos no
-              autorizados.</p>
-            <br>
-            <figure>
-              <img src="ciberseguridad en empresa.jpg.webp" alt srcset>
-            </figure>
+<div class="container">
 
-            <p class="card-text fg-2">"La ciberseguridad (Seguridad
-              informática). es el conjunto de prácticas,
-              procesos y tecnologias diseñadas para proteger redes,
-              dispositivos, programas y datos frentes a
-              ataques, daños o accesos no autorizados"</p>
 
+  <div class="text-center mb-5">
+    <h2 class="fw-bold ">
+      La ciberseguridad en diferentes ámbitos
+    </h2>
+    <p class="text-muted">
+      La importancia de proteger nuestra información en la sociedad digital.
+    </p>
+  </div>
+
+
+  <div class="card shadow-lg border-0 rounded-4 mb-5 overflow-hidden">
+    <div class="card-body p-4 p-md-5">
+
+      <h2 class="fw-bold text-primary mb-4">
+        La ciberseguridad en las Escuelas
+      </h2>
+
+      <div class="row align-items-center g-4">
+
+    
+        <div class="col-12 col-md-5">
+          <figure class="text-center">
+            <img src="imagenexpo/imagen-nico/ciberseguridad_hogares.jpeg"
+              class="img-fluid rounded-4 shadow-sm"
+              alt="Ciberseguridad en los hogares">
+            <figcaption class="figure-caption mt-2">
+              Imagen generada por I.A.
+            </figcaption>
+          </figure>
+        </div>
+
+    
+        <div class="col-12 col-md-7">
+          <p class="text-secondary text-justify">
+            La educación es un factor clave en la vida de todas las personas.
+            Por ello, las instituciones deben proporcionar a los niños y
+            jóvenes no solo herramientas básicas, sino también habilidades
+            necesarias para su vida cotidiana y su futuro.
+          </p>
+
+          <p class="text-secondary">
+            La ciberseguridad en las escuelas es fundamental para proteger
+            la privacidad de los alumnos, resguardar los datos institucionales
+            y garantizar la continuidad de las actividades educativas.
+          </p>
+
+          <p class="text-secondary">
+            La formación académica debe ir acompañada de un uso responsable
+            de Internet. Es importante fomentar desde temprana edad prácticas
+            que permitan prevenir riesgos como el sexting, el ciberacoso y
+            la suplantación de identidad.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="bg-light rounded-4 p-4 mt-4">
+        <h4 class="fw-bold text-primary mb-3">
+          Recomendaciones para una navegación segura
+        </h4>
+
+        <ol class="list-group list-group-numbered list-group-flush">
+          <li class="list-group-item bg-transparent">
+            <strong>Supervisar el uso de Internet:</strong>
+            los padres y las instituciones deben acompañar a los niños
+            y asegurarse de que visiten sitios apropiados para su edad.
+          </li>
+
+          <li class="list-group-item bg-transparent">
+            <strong>Proteger la información personal:</strong>
+            enseñar a no compartir nombres completos, direcciones,
+            teléfonos o datos escolares en redes sociales.
+          </li>
+
+          <li class="list-group-item bg-transparent">
+            <strong>Utilizar contraseñas seguras:</strong>
+            crear contraseñas difíciles de adivinar y no compartirlas
+            con otras personas.
+          </li>
+
+          <li class="list-group-item bg-transparent">
+            <strong>No hablar con desconocidos:</strong>
+            informar a un adulto de confianza si alguien desconocido
+            intenta contactarlos por Internet.
+          </li>
+
+          <li class="list-group-item bg-transparent">
+            <strong>Utilizar antivirus:</strong>
+            mantener los dispositivos protegidos frente a virus,
+            programas maliciosos y otras amenazas.
+          </li>
+        </ol>
+      </div>
+
+      <div class="text-center mt-4">
+        <img src="imagenexpo/imagen-nico/seguridad_en_escuelas1.png"
+          class="img-fluid rounded-4 shadow-sm"
+          style="max-height: 350px;"
+          alt="Seguridad informática en las escuelas">
+        <figcaption class="figure-caption mt-2">
+          Imagen generada por I.A.
+        </figcaption>
+      </div>
+
+    </div>
+  </div>
+    <div class="card shadow-lg border-0 rounded-4 mb-5 overflow-hidden">
+    <div class="card-body p-4 p-md-5">
+
+      <h2 class="fw-bold text-success mb-4">
+        La ciberseguridad en las Empresas
+      </h2>
+
+      <div class="row align-items-center g-4">
+
+      
+        <div class="col-12 col-md-7">
+          <p class="text-secondary">
+            La ciberseguridad en las empresas consiste en implementar
+            estrategias enfocadas en proteger equipos, redes, software,
+            datos y sistemas críticos de una compañía.
+          </p>
+
+          <p class="text-secondary">
+            Su principal objetivo es garantizar la seguridad de las
+            operaciones, brindar confianza a los clientes y cumplir
+            con las normativas vigentes.
+          </p>
+
+          <p class="text-secondary">
+            Comprende un conjunto de tecnologías, procesos y políticas
+            diseñados para proteger los sistemas, dispositivos y datos
+            frente a accesos no autorizados, ataques digitales o
+            interrupciones operativas.
+          </p>
+        </div>
+
+    
+        <div class="col-12 col-md-5">
+          <figure class="text-center">
+            <img src="imagenexpo/imagen-nico/ciberseguridad_en_empresas.jpg"
+              class="img-fluid rounded-4 shadow-sm"
+              alt="Ciberseguridad en las empresas">
+            <figcaption class="figure-caption mt-2">
+              Imagen generada por I.A.
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+
+      
+      <div class="row g-3 mt-4">
+
+        <div class="col-12 col-md-4">
+          <div class="p-3 bg-light rounded-4 h-100 text-center">
+            
+            <h5 class="fw-bold mt-2">Protección de datos</h5>
+            <p class="text-secondary small mb-0">
+              Resguardar la información confidencial de la empresa y sus clientes.
+            </p>
           </div>
         </div>
-        <br>
-        <h5><b>La Ciberseguridad en los Bancos</b></h5>
-        <p>usuarios frente a ataques digitales.</p>
-        <p>Hoy, proteger esa confianza ya no depende solo de contar con buenas
-          prácticas internas, sino de
-          implementar estrategias de ciberseguridad robustas, en tiempo real y
-          centradas en el cliente. En este
-          contexto, la ciberseguridad bancaria se consolida como un eje clave
-          para sostener la reputación,
-          cumplir con las normativas y seguir generando valor en un entorno cada
-          vez más complejo.</p>
-        <br>
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <img src="ciberseguridad en los bancos.png" class="card-img"
-              alt="...">
-            <h3 class="mt-2 mb-0">Ciberseguridad en los Bancos</h3>
-            <p class="card-text fg-2">"Los bancos enfrentan ataques de malware,
-              ransomware, phishing y troyanos
-              bancarios, que buscan robar información financiera de clientes y
-              empleados o comprometer sistemas
-              internos."</p>
+
+        <div class="col-12 col-md-4">
+          <div class="p-3 bg-light rounded-4 h-100 text-center">
+            
+            <h5 class="fw-bold mt-2">Seguridad tecnológica</h5>
+            <p class="text-secondary small mb-0">
+              Proteger equipos, redes y sistemas informáticos.
+            </p>
           </div>
         </div>
-        <br>
-        <h5><b>La ciberseguridad en los Hospitales</b></h5>
-        <p>protege tanto la privacidad de los pacientes como la continuidad de
-          los equipos críticos y sistemas
-          médicos frente a ataques informáticos, como el ransomware y el robo de
-          datos</p>
-        <p>La ciberseguridad se ocupa de proteger los sistemas informáticos y
-          los datos sensibles contra ataques
-          maliciosos. Sin embargo, el sector de la salud es uno de los más
-          atacados a nivel global, y se
-          enfrenta a una creciente preocupación por la falta de medidas de
-          seguridad adecuadas. Los registros
-          electrónicos de salud, aunque permiten un monitoreo y control de
-          accesos, también pueden ser
-          vulnerados por hackers sofisticados, lo que ha dado lugar a la
-          exposición de millones de datos
-          médicos. En este contexto, las brechas de seguridad en hospitales y
-          sistemas de salud son cada vez más
-          frecuentes, con consecuencias que van desde el robo de identidades
-          médicas hasta el sabotaje de
-          equipos críticos.</p>
-        <p>Capacitación continua al personal: La educación sobre buenas
-          prácticas de ciberseguridad debe ser una
-          prioridad, ya que muchos ataques provienen de errores humanos como el
-          uso de contraseñas débiles o la
-          respuesta a correos electrónicos de phishing.</p>
-        <br>
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <img src="medico.jpg.jpg" class="card-img" alt="...">
-            <h3 class="mt-2 mb-0"><b>La ciberseguridad médicos</b></h3>
-            <p class="card-text fg-2">""</p>
+
+        <div class="col-12 col-md-4">
+          <div class="p-3 bg-light rounded-4 h-100 text-center">
+      
+            <h5 class="fw-bold mt-2">Confianza empresarial</h5>
+            <p class="text-secondary small mb-0">
+              Garantizar la confianza de clientes, empleados y proveedores.
+            </p>
           </div>
-          <br>
-          <h5><b>La ciberseguridad en las infraestructuras criticas</b></h5>
-          <p>La ciberseguridad en infraestructuras críticas protege los sistemas
-            físicos y digitales
-            indispensables para el funcionamiento de la sociedad, como la
-            energía, el agua, el transporte, la
-            salud, las telecomunicaciones y el sector financiero. La
-            ciberseguridad en infraestructuras críticas
-            protege los sistemas y activos físicos o virtuales esenciales para
-            la sociedad y la economía, como
-            la energía, el agua, el transporte, la salud y las
-            telecomunicaciones</p>
-          <p>Energía: Redes de generación, transmisión eléctrica y petróleo.
-            Agua y saneamiento: Plantas de
-            tratamiento y distribución de agua potable. Transporte y defensa:
-            Aeropuertos, puertos,
-            ferrocarriles e instalaciones militares. Salud y gobierno:
-            Hospitales, centros de datos y servicios
-            públicos esenciales</p>
-          <div class="text-center">
-            <section class="card" style="max-width: 320px">
-              <img src=div class=" text-center">
-              <section class="card" style="max-width: 320px">
-                <img src="imagen.infraestructura.jpg" class="card-img-top"
-                  alt="...">
-                <div class="card-body">
-                  <h3 class="card-title">imágen</h3>
-                  <p
-                    class="card-text">"Ciberseguridad en las Infraestructura Criticas."</p>
-                  <br>
-                  <h5><b>La Ciberseguridad en los Organismos Públicos</b></h5>
-                  <p>La Ciberseguridadtada en archivos, registros, bancos de
-                    datos u otros medios técnicos,
-                    tanto públicos como privados, para garantizar el derecho al
-                    honor y a la intimidad de las
-                    personas."</p>
-                  <p>En Argentina, la Ciberseguridad en los Organismos Públicos
-                    se rige por nuevas normativas
-                    del Centro Nacional de Ciberseguridad (CNC) y regulaciones
-                    específicas que exigen mayor
-                    resiliencia frente a ataques informáticos</p>
-                  <br>
-                  <div class="text-center">
-                    <section class="card" style="max-width: 320px">
-                      <img
-                        src="d:\UsuarioNetbook\Downloads\ciberseguridad en organismos públicos.jpg"
-                        class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h3="card-title">imágen</h3>
-                        <p class="card-text"><b>Ciberseguridad en Organismo
-                            Público.</b></p>
-                      </div>
-                    </section>
+        </div>
 
-                  </body>
+      </div>
 
-                  <footer class="footer mt-5">
-                    <button type="button"
-                      class="btn-solid theme-primary bg-info me-auto btn-lg "
-                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                      <a href="2.Tema.html"
-                        class="btn btn-solid theme-primary bg-info me-auto btn-lg">Inicio</a>
+    </div>
+  </div>
 
-                    </button>
-                    <ul class="social-icon">
-                      <li class="icon_elem">
-                        <a href="https://www.facebook.com/escfp7/?locale=es_LA"
-                          target="_blank" rel="noopener noreferrer"
-                          class="icon">
-                          <ion-icon name="logo-facebook"></ion-icon>
-                        </a>
-                      </li>
-                      <li class="icon_elem">
-                        <a href="https://www.instagram.com/efp7ok/?hl=es"
-                          target="_blank" rel="noopener noreferrer"
-                          class="icon">
-                          <ion-icon name="logo-instagram"></ion-icon>
-                        </a>
-                      </li>
-                      <li class="icon_elem">
-                        <a href="https://wa.me/5493624235608" target="_blank"
-                          rel="noopener noreferrer" class="icon">
-                          <ion-icon name="logo-whatsapp"></ion-icon>
-                        </a>
-                      </li>
-                      <li class="icon_elem">
-                        <a href="mailto:escuelafp7@gmail.com" target="_blank"
-                          rel="noopener noreferrer" class="icon">
-                          <ion-icon name="mail-outline"></ion-icon>
-                        </a>
-                      </li>
-                    </ul>
-                    <ul class="menu">
+</div>
+<br>
 
-                      <li class="menu_elem">
-                        <a href="#" class="menu_icon">facebook</a>
-                      </li>
-                      <li class="menu_elem">
-                        <a href="#" class="menu_icon">Instagram</a>
-                      </li>
-                      <li class="menu_elem">
-                        <a href="#" class="menu_icon">whatsapp</a>
-                      </li>
-                      <li class="menu_elem">
-                        <a
-                          href="https://ifts1.com.ar/institucion-educativa/e-f-p-n7/"
-                          target="_blank" rel="noopener noreferrer"
-                          class="menu_icon">Quienes Somos</a>
-                      </li>
+<div class="container">
 
-                    </ul>
-                  </footer>
-                  <script type="module"
-                    src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
-                  <script nomodule
-                    src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
-                </body>
-                <script
-                  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-                  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-                  crossorigin="anonymous">
+  <div class="card shadow border-0 rounded-4 mb-4 p-3">
+    <div class="card-body">
+      <h3 class="text-primary fw-bold mb-4">
+        La Ciberseguridad en los Bancos
+      </h3>
+
+      <div class="row align-items-center g-4">
+
+        <div class="col-12 col-md-7">
+          <p class="card-text">
+            Los bancos deben proteger la información y la confianza
+            de sus usuarios frente a los ataques digitales.
+          </p>
+
+          <p class="card-text">
+            Hoy, proteger esa confianza ya no depende solo de contar
+            con buenas prácticas internas, sino también de implementar
+            estrategias de ciberseguridad robustas, en tiempo real y
+            centradas en el cliente.
+          </p>
+
+          <p class="card-text">
+            En este contexto, la ciberseguridad bancaria se consolida
+            como un eje clave para sostener la reputación, cumplir con
+            las normativas y seguir generando valor en un entorno cada
+            vez más complejo.
+          </p>
+
+          <div class="alert alert-primary mt-3 mb-0">
+            <strong>Principales amenazas:</strong>
+            malware, ransomware, phishing y troyanos bancarios,
+            que buscan robar información financiera de clientes
+            y empleados o comprometer sistemas internos.
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5">
+          <figure class="mb-0 text-center">
+            <img src="imagenexpo/imagen-nico/ciberseguridad_bancos.webp"
+              class="img-fluid w-100 rounded-4 shadow-sm"
+              alt="Ciberseguridad en bancos">
+            <figcaption class="figure-caption mt-2">
+              Imagen generada por I.A.
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+ 
+  <div class="card shadow border-0 rounded-4 mb-4 p-3">
+    <div class="card-body">
+      <h3 class="text-success fw-bold mb-4">
+        La Ciberseguridad en los Hospitales
+      </h3>
+
+      <div class="row align-items-center g-4">
+
+        <div class="col-12 col-md-7">
+          <p class="card-text">
+            La ciberseguridad en los hospitales protege tanto la
+            privacidad de los pacientes como la continuidad de los
+            equipos críticos y sistemas médicos frente a ataques
+            informáticos, como el ransomware y el robo de datos.
+          </p>
+
+          <p class="card-text">
+            El sector de la salud es uno de los más expuestos a las
+            amenazas digitales. Los registros electrónicos de salud,
+            aunque permiten un mejor monitoreo y control de accesos,
+            también pueden ser vulnerados por ciberdelincuentes.
+          </p>
+
+          <p class="card-text">
+            Las brechas de seguridad pueden provocar el robo de
+            identidades médicas, la exposición de información
+            confidencial y el sabotaje de equipos críticos.
+          </p>
+
+          <div class="alert alert-success mt-3 mb-0">
+            <strong>Medida de prevención:</strong>
+            capacitar continuamente al personal sobre buenas prácticas
+            de seguridad, contraseñas seguras e identificación de
+            correos electrónicos de phishing.
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5">
+          <figure class="mb-0 text-center">
+            <img src="imagenexpo/imagen-nico/Ciberseguridad_hospitales.webp"
+              class="img-fluid w-100 rounded-4 shadow-sm"
+              alt="Ciberseguridad en hospitales">
+            <figcaption class="figure-caption mt-2">
+              Imagen generada por I.A.
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card shadow border-0 rounded-4 mb-4 p-3">
+    <div class="card-body">
+      <h3 class="text-warning fw-bold mb-4">
+        La Ciberseguridad en las Infraestructuras Críticas
+      </h3>
+
+      <div class="row align-items-center g-4">
+
+        <div class="col-12 col-md-7">
+          <p class="card-text">
+            La ciberseguridad en infraestructuras críticas protege
+            los sistemas físicos y digitales indispensables para el
+            funcionamiento de la sociedad, como la energía, el agua,
+            el transporte, la salud, las telecomunicaciones y el
+            sector financiero.
+          </p>
+
+          <p class="card-text">
+            Estos servicios son esenciales para la sociedad y la
+            economía, por lo que cualquier ataque informático puede
+            generar interrupciones importantes y afectar a miles
+            de personas.
+          </p>
+
+          <h5 class="fw-bold mt-3">Principales infraestructuras:</h5>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <strong>Energía:</strong> redes de generación y
+              distribución eléctrica y petróleo.
+            </li>
+            <li class="list-group-item">
+              <strong>Agua y saneamiento:</strong> plantas de
+              tratamiento y distribución de agua potable.
+            </li>
+            <li class="list-group-item">
+              <strong>Transporte:</strong> aeropuertos, puertos
+              y ferrocarriles.
+            </li>
+            <li class="list-group-item">
+              <strong>Salud y gobierno:</strong> hospitales,
+              centros de datos y servicios públicos esenciales.
+            </li>
+          </ul>
+        </div>
+         <div class="col-12 col-md-5">
+          <figure class="mb-0 text-center">
+            <img src="imagenexpo/imagen-nico/ciberseguridaad_infraectrutura.jpg"
+              class="img-fluid w-100 rounded-4 shadow-sm"
+              alt="Ciberseguridad en infraestructuras críticas">
+            <figcaption class="figure-caption mt-2">
+              Imagen generada por I.A.
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="card shadow border-0 rounded-4 mb-4 p-3">
+    <div class="card-body">
+      <h3 class="text-info fw-bold mb-4">
+        La Ciberseguridad en los Organismos Públicos
+      </h3>
+
+      <div class="row align-items-center g-4">
+
+        <div class="col-12 col-md-7">
+          <p class="card-text">
+            La ciberseguridad en los organismos públicos tiene como
+            objetivo proteger la información de los ciudadanos,
+            los sistemas administrativos y los servicios digitales
+            del Estado.
+          </p>
+
+          <p class="card-text">
+            También busca garantizar la confidencialidad,
+            integridad y disponibilidad de los datos almacenados
+            en archivos, registros y bases de datos, tanto públicos
+            como privados.
+          </p>
+
+          <p class="card-text">
+            En Argentina, la protección de los sistemas y datos
+            gubernamentales requiere políticas de seguridad,
+            prevención de ataques informáticos y medidas de
+            respuesta ante incidentes digitales.
+          </p>
+
+          <div class="alert alert-info mt-3 mb-0">
+            <strong>Objetivo principal:</strong>
+            garantizar la protección de los datos personales,
+            la transparencia y la continuidad de los servicios
+            públicos digitales.
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5">
+          <figure class="mb-0 text-center">
+            <img src="imagenexpo/imagen-nico/ciberseguridad_en_sector_publico.webp"
+              class="img-fluid w-100 rounded-4 shadow-sm"
+              alt="Ciberseguridad en organismos públicos">
+            <figcaption class="figure-caption mt-2">
+              Imagen generada por I.A.
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+</main>
+    
+   
+  <br>
+    <footer class="footer mt-5">
+<a href="2.Tema.html" class="btn btn-solid theme-primary bg-info me-auto btn-lg">Inicio
+         <button type="button" class="btn-solid theme-primary bg-info me-auto btn-lg " 
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+</button>
+  </a>
+  <ul class="social-icon">
+    <li class="icon_elem">
+      <a href="https://www.facebook.com/escfp7/?locale=es_LA"  target="_blank" rel="noopener noreferrer" class="icon">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+    </li>
+      <li class="icon_elem">
+      <a href="https://www.instagram.com/efp7ok/?hl=es" target="_blank" rel="noopener noreferrer" class="icon">
+       <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+    </li>
+      <li class="icon_elem">
+      <a href="https://wa.me/5493624235608" target="_blank" rel="noopener noreferrer" class="icon">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+      </a>
+    </li>
+   <li class="icon_elem">
+      <a href="mailto:escuelafp7@gmail.com" target="_blank" rel="noopener noreferrer" class="icon">
+        <ion-icon name="mail-outline"></ion-icon>
+      </a>
+  </li>
+  </ul>
+    <ul class="menu">
+        
+         <li class="menu_elem">
+          <a href="https://www.facebook.com/escfp7/?locale=es_LA" target="_blank" rel="noopener noreferrer" class="menu_icon">facebook</a>
+        </li>
+         <li class="menu_elem">
+          <a href="https://www.instagram.com/efp7ok/?hl=es" target="_blank" rel="noopener noreferrer" class="menu_icon">Instagram</a>
+        </li>
+        <li class="menu_elem">
+          <a href="https://wa.me/5493624235608" target="_blank" rel="noopener noreferrer" class="menu_icon">whatsapp</a>
+        </li>
+         <li class="menu_elem">
+          <a href="https://ifts1.com.ar/institucion-educativa/e-f-p-n7/" target="_blank" rel="noopener noreferrer" class="menu_icon">Quienes Somos</a>
+        </li>
+        
+    </ul>
+
+    
+  </footer>
+<script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+</body>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css");</script>
-              </html>
+</html>

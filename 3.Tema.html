@@ -1,541 +1,487 @@
-<!-- archivo corregido y observado -->
 <!DOCTYPE html>
 <html lang="es-AR">
 
-  <head>
-    <link rel="shortcut icon" href="iconosexpo/dispositivo.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilos.css">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous">
-    <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+<head>
+  <link rel="shortcut icon" href="iconosexpo/dispositivo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Redaction+100:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap');
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Changa+One:ital@0;1&family=Habibi&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Redaction+100:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap"
+    rel="stylesheet">
+  <title>ciberCeguridad</title>
+  <!-- metas agregados por el docente Fernandez, Mario -->
+  <meta name="description" content="trabajo integrador preparatorio para el examen final de FrontEnd - 2026">
+  <meta name="author" content="Grupo #1 - Lunes y Martes 14-18hs">
+  <meta name="keywords"
+    content="HTML5, CSS3, desarrollo web, Ciberseguridad, efp7, resistencia, chaco, educacion, formacion profesional">
+  <!-- lo siguiente Indica a los rastreadores de los buscadores si deben indexar la página o seguir los enlaces. -->
+  <meta name="robots" content="index, follow">
+</head>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Redaction+100:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap');
-      </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Changa+One:ital@0;1&family=Habibi&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Redaction+100:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap"
-      rel="stylesheet">
+<body class="body">
+  <header>
+    <nav class="navbar navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" target="_self"><img src="imagenexpo/Logos/efp-logo-blanco.jpeg"
+            alt="imagen-logo" width="100px" height="50px"></a>
+        <div class="navbar navbar-expand-md">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"></a>
+                </li>
 
-    <title>ciberCeguridad</title>
-    <meta name="description"
-      content="Trabajo Practico para exhibir en la EXPO 2026">
-    <meta name="author"
-      content="Desarrollador Web Jr. - Grupo Lunes y Martes - Docente Mario R. Fernandez">
-    <meta name="keywords"
-      content="HTML5, CSS3, desarrollo web, efp7, resistencia, expo, educacion tecnica, grupo 1, Frontend">
-    <!-- lo siguiente Indica a los rastreadores de los buscadores si deben indexar la página o seguir los enlaces. -->
-    <meta name="robots" content="index, follow">
-  </head>
-
-  <body class="body">
-    <header>
-      <nav class="navbar navbar-expand-md bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="Index.html" target="_self"><img
-              src="imagenexpo/Logos/efp-logo-blanco.jpeg" alt width="100px"
-              height="50px"></a>
-          <div class="navbar navbar-expand-md bg-body-tertiary">
-            <div class="container">
-              <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"
-                      href="Index.html"></a>
-                  </li>
-
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false">Concepto</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="1.Tema.html"
-                          target="_self">Ciberseguridad</a></li>
-                      <li><a class="dropdown-item" href="#"
-                          target="_self">Importancia</a></li>
-                    </ul></li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false">Buenas Prácticas</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#"
-                          target="_self">Introduccion</a></li>
-                      <li><a class="dropdown-item" href="4.Tema.html"
-                          target="_self">Entorno Profesional</a></li>
-                    </ul></li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false">Amenazas</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="5.Tema.html"
-                          target="_self">¿Cuál son?</a></li>
-                      <li><a class="dropdown-item" href="6.Tema.html"
-                          target="_self">Prevención</a></li>
-                    </ul></li>
-                </div>
-              </div>
-            </div>
-          </nav>
-          <br>
-        </header>
-
-        <main>
-          <!-- Este es un comentario en HTML 
- <div class="fondo1 justify-content-center align-items-center ">
-      <h1  class="text-white text-center">Pensa en tu Futuro </h1>
-      
-      
-    </div>
-    -->
-          <div class="container-fluid text-center py-4 " ;>
-            <h1 class="changa-one-regular" id="3.Tema.html">INTRODUCCIÓN BUENAS
-              PRACTICAS </h1>
-            <p><strong>
-                Son un conjunto de medidas técnicas y hábitos diarios diseñados
-                para proteger los sistemas, las redes y los datos personales o
-                empresariales frente a amenazas digitalesa
-                genética
-              </p></strong>
-            <div class="row">
-              <div class="col-12 col-md-4 mb-3">
-                <img
-                  src="imagenexpo/imagenes-Alex/img/CONTRASEÑA.jpg"
-                  alt="imagen1"
-                  class="img-fluid rounded-5" /> <figcaption
-                  class="figure-caption">Imagen generada por Gemini
-                </figcaption>
-              </div>
-              <div class="col-12 col-md-4 mb-3">
-                <img
-                  src="imagenexpo/imagenes-Alex/img/contraseña1.jpg"
-                  class="img-fluid rounded-5"
-                  alt="imagen2" /> <figcaption class="figure-caption">Imagen
-                  generada por Gemini </figcaption>
-              </div>
-              <div class="col-12 col-md-4 mb-3">
-                <img src="imagenexpo/imagenes-Alex/img/contraseña2.jpg "
-                  alt="imagen3" class="img-fluid rounded-5" height="400px"
-                  width="410px" /><figcaption class="figure-caption">Imagen
-                  generada por Gemini </figcaption>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <h2 class="habibi-regular">Contraseña Segura y Unicas </h2>
-                <p>“El 81% de las brechas de seguridad se debe a contraseñas
-                  débiles o reutilizadas.”
-                  Fuente: Microsoft Security Report
-                  Es recomendable crear contraseñas fuertes y distintas para
-                  cada cuenta, combinando letras, números y símbolos y
-                  cambiarlas regularmente.</p>
-                <h4>Video Recomendado</h4>
-                <iframe width="450px" height="315px"
-                  src="https://www.youtube.com/embed/GaZxT9P2tX0?si=tvRAE_DuyKPcBUcw"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen></iframe><figcaption><small>YouTube
-                    (VIDEO)Como hacer contraseñas anti hackeos autor:Rafa
-                    arjonilla</small></figcaption>
-                <h3 class="contraseña1">8 Consejos para tener una Contraseña
-                  Segura</h3>
-                <ol>
-                  <li class="lista_buenasPracticas">Usá una frase larga y
-                    significativa</li>
-                  <p>Elegí una frase que puedas recordar fácilmente y
-                    transformala añadiendo mayúsculas, números o símbolos. Por
-                    ejemplo, a partir de “La pizza fría me encanta” se puede
-                    generar algo como: LaPizz@FríaMeEnc@nt@.</p>
-                  <li class="lista_buenasPracticas"><strong>Evitá datos
-                      personales o palabras obvias</li></strong>
-                  <p>No utilices nombres, fechas de cumpleaños, teléfonos ni
-                    palabras relacionadas con el servicio (como “facebook123”).
-                    Estas son muchas veces las primeras que prueban los
-                    atacantes.</p>
-                  <li class="lista_buenasPracticas"><strong>Incorporá una
-                      combinación de caracteres</li></strong>
-                  <p>Una contraseña segura debe incluir mayúsculas, minúsculas,
-                    números y símbolos especiales para aumentar su
-                    complejidad.</p>
-                  <li class="lista_buenasPracticas"><strong>Usá contraseñas
-                      largas y únicas</li></strong>
-                  <p>Mientras más caracteres contenga tu contraseña, más difícil
-                    será descifrarla. Además, es fundamental que no la
-                    reutilices en varias cuentas.</p>
-                  <li class="lista_buenasPracticas"><strong>No reutilices la
-                      misma clave para distintos servicios</li></strong>
-                  <p>Si alguien descubre la contraseña de un servicio, podría
-                    intentar usarla en otros. Cada cuenta importante merece su
-                    propia clave.</p>
-                  <li class="lista_buenasPracticas"><strong>Considerá usar un
-                      gestor de contraseñas</li></strong>
-                  <p>Cuando tenés muchas cuentas, un gestor te permite generar y
-                    guardar contraseñas únicas sin tener que recordarlas
-                    todas.</p>
-                  <li class="lista_buenasPracticas"><strong>Cambiá tus
-                      contraseñas periódicamente</li></strong>
-                  <p>Aunque no haya un incidente, renovar claves importantes
-                    reduce el riesgo de que una vieja vulnerabilidad sea
-                    aprovechada.</p>
-                  <li class="lista_buenasPracticas"><strong>Verificá que la
-                      contraseña sea difícil de adivinar</li></strong>
-                  <p>Evitalas secuencias simples (“12345678”, “abcd”), patrones
-                    del teclado o cualquier combinación que pueda predecirse
-                    fácilmente.
-
-                    Proteger tus credenciales no es un lujo: es una necesidad.
-                    Aplicando estos ocho consejos, podés elevar
-                    considerablemente la seguridad de tus cuentas y minimizar la
-                    exposición ante ataques.</p>
-                </ol>
-
-              </div>
-              <div class="col">
-                <h2 class="habibi-regular">
-                  Autenticación multifactor (MFA)</h2>
-                A medida que las amenazas cibernéticas continúan evolucionando,
-                la protección de los datos confidenciales se ha convertido en
-                una prioridad para las empresas. Confiar solo en las contraseñas
-                ya no es suficiente para mantener los sistemas a salvo de
-                accesos no autorizados. La autenticación multifactor (MFA)
-                ofrece una solución potente al añadir capas adicionales de
-                verificación al proceso de inicio de sesión, lo que hace que sea
-                mucho más difícil para los atacantes vulnerar los sistemas.
-
-                En este artículo, exploraremos qué es la MFA, cómo mejora la
-                seguridad y las ventajas e inconvenientes de implementarla.
-                También destacaremos cómo Splashtop utiliza la MFA para
-                proporcionar una experiencia de acceso remoto segura y fiable.
-                <strong><p>¿Qué es la autenticación multifactor (MFA)?
-                  </p></strong>
-                <p><strong>Significado y Definición de Autenticación
-                    Multifactor</strong></p>
-                La autenticación multifactor (MFA) es un método de seguridad que
-                requiere que los usuarios verifiquen su identidad a través de
-                dos o más factores independientes. Estos factores pueden incluir
-                algo que el usuario sabe, como una contraseña, algo que tiene,
-                como un dispositivo móvil o un token, o algo que es, como una
-                huella dactilar o un reconocimiento facial. Este enfoque en
-                capas agrega un paso adicional al proceso de inicio de sesión,
-                lo que mejora significativamente la seguridad.
-                <p><strong>¿Por qué es necesaria la MFA?</strong></p>
-                La MFA es fundamental en el panorama digital actual porque
-                refuerza la seguridad al requerir múltiples formas de
-                verificación. La autenticación tradicional de un solo factor,
-                como una contraseña, suele ser vulnerable a ataques como el
-                phishing o el robo de credenciales. Al agregar capas
-                adicionales, como una OTP (contraseña de un solo uso) o
-                verificación biométrica, la MFA ayuda a proteger la información
-                y los sistemas confidenciales del acceso no autorizado.
-
-                Las medidas de seguridad MFA son vitales para prevenir amenazas
-                cibernéticas y proteger a empresas e individuos de violaciones
-                de datos. Además, muchas industrias requieren MFA para cumplir
-                con regulaciones, como RGPD o HIPAA, que exigen métodos de
-                autenticación estrictos para proteger los datos de los usuarios.
-                Más allá del cumplimiento, la autenticación multifactor también
-                genera confianza en los usuarios al proporcionar una capa
-                adicional de seguridad, asegurando que la información sensible
-                permanezca protegida, incluso frente a amenazas cibernéticas
-                sofisticadas.
-
-                Al implementar la MFA, las organizaciones no solo reducen el
-                riesgo de acceso no autorizado, sino que también crean un
-                entorno en línea más seguro para sus usuarios, generando
-                confianza en sus sistemas.
-                <p><strong>¿Cómo funciona la autenticación
-                    multifactor?</strong></p>
-                La autenticación multifactor (MFA) funciona exigiendo a los
-                usuarios que presenten dos o más factores de verificación antes
-                de obtener acceso a un sistema o aplicación. Por lo general, el
-                proceso comienza cuando el usuario ingresa su contraseña (algo
-                que sabe). Después de esto, se requiere un segundo factor, como
-                una OTP (contraseña de un solo uso) enviada a su dispositivo
-                móvil o un escaneo biométrico (algo que tienen o algo que son).
-                Este enfoque de autenticación multicapa garantiza que, incluso
-                si un factor se ve comprometido, los factores adicionales añaden
-                una capa significativa de seguridad. <br>
-
-                <strong><p>Existen diferentes métodos de MFA para implementar
-                    este mecanismo de seguridad, cada uno con funciones y
-                    ejemplos únicos: </p></strong>
-                <p>La autenticación multifactor (MFA) funciona exigiendo a los
-                  usuarios que presenten dos o más factores de verificación
-                  antes de obtener acceso a un sistema o aplicación. Por lo
-                  general, el proceso comienza cuando el usuario ingresa su
-                  contraseña (algo que sabe). Después de esto, se requiere un
-                  segundo factor, como una OTP (contraseña de un solo uso)
-                  enviada a su dispositivo móvil o un escaneo biométrico (algo
-                  que tienen o algo que son). Este enfoque de autenticación
-                  multicapa garantiza que, incluso si un factor se ve
-                  comprometido, los factores adicionales añaden una capa
-                  significativa de seguridad. </p> <br>
-                <p>Existen diferentes métodos de MFA para implementar este
-                  mecanismo de seguridad, cada uno con funciones y ejemplos
-                  únicos: </strong></p>
-
-              Autenticación de dos factores (2FA)
-              Una de las formas más comunes de MFA, 2FA implica dos pasos para
-              verificar la identidad:
-
-              Ejemplo: introducir una contraseña seguida de una contraseña de un
-              solo uso (OTP) enviada al teléfono móvil o al correo electrónico
-              del usuario.
-              Aplicaciones de autenticación
-              Las aplicaciones de autenticación generan códigos de acceso de un
-              solo uso (TOTP) basados en el tiempo para que los usuarios los
-              ingresen después de ingresar su contraseña.
-
-              Ejemplo: los usuarios inician sesión con una contraseña y, a
-              continuación, abren una aplicación de autenticación (por ejemplo,
-              Microsoft
-              Authenticator) para introducir un código que solo es válido
-              durante 30-60 segundos.
-              Biometría
-              La autenticación biométrica utiliza rasgos físicos únicos para
-              verificar la identidad.
-
-              Ejemplo: los teléfonos inteligentes y los ordenadores portátiles
-              equipados con escáneres biométricos pueden solicitar a los
-              usuarios que proporcionen una huella dactilar, un escaneo del iris
-              o un reconocimiento facial después de ingresar la contraseña.
-              Tokens de hardware
-              Los dispositivos físicos se utilizan como una segunda capa de
-              seguridad después de ingresar una contraseña.
-
-              Ejemplo: Llaves de seguridad USB (como YubiKey) conectadas a un
-              ordenador para la autenticación.
-              OTP por SMS o correo electrónico
-              Las contraseñas de un solo uso enviadas por SMS o correo
-              electrónico son otro método de MFA, que garantiza que un usuario
-              tenga acceso a un dispositivo o cuenta de confianza.
-
-              Ejemplo: iniciar sesión con una contraseña y recibir un código de
-              un solo uso por SMS, que debe ingresarse para completar el proceso
-              de inicio de sesión.
-              Reconocimiento de dispositivos
-              Los sistemas pueden reconocer un dispositivo que se ha registrado
-              como una capa adicional de autenticación.
-
-              Ejemplo: los usuarios pueden marcar un dispositivo de confianza,
-              como su teléfono inteligente u ordenador, y solo se les solicita
-              una autenticación secundaria si inician sesión desde un
-              dispositivo nuevo o no reconocido.
-
-              Cada uno de estos métodos mejora la seguridad al requerir más de
-              un factor para verificar la identidad del usuario, lo que
-              dificulta que los atacantes violen el sistema con solo una
-              contraseña robada.
-              <p><strong>Las principales ventajas de la autenticación
-                  multifactor (MFA) para tu empresa </strong></p>
-
-              Reducción del riesgo de acceso no autorizado
-              Protección contra ataques de phishing
-              Cumplimiento de la normativa
-              Aumento de la confianza del usuario
-              Prevención del robo de credenciales
-
-            </div>
-            <div class="col">
-              <h2 class="habibi-regular">Actualizaciones y Copia de
-                Seguridad</h2>
-              <strong>Las actualizaciones y las copias de seguridad son dos
-                pilares fundamentales de la ciberseguridad para prevenir
-                ataques, corregir vulnerabilidades y asegurar la continuidad
-                operativa </strong><br>
-
-              Nuestros dispositivos digitales contienen vastos tesoros de datos,
-              desde fotos familiares y colecciones de música hasta datos
-              financieros, registros de salud y contactos personales.
-
-              Almacenar toda esta información en una computadora, tableta o
-              smartphone implica el riesgo de perderla si todos esos datos se
-              encuentran en una sola ubicación digital.
-
-              Los datos pueden borrarse de muchas maneras. Tal vez tu
-              computadora se moje o una actualización de software falle. Un
-              dispositivo puede perderse en un incendio o desastre natural. Un
-              virus podría robar todos tus datos o destruir tu equipo. Un mal
-              actor podría atacarte con ransomware, que es cuando mantienen los
-              datos de un dispositivo como rehén hasta que pagues una tarifa.
-
-              Para evitar perder datos, documentos y archivos valiosos, haz una
-              copia de seguridad de tus archivos con regularidad y con
-              frecuencia. Incluso podrías querer hacer copias de seguridad de
-              tus archivos a diario, o incluso con más frecuencia. <br>
-              <br>
-              <br>
-              <strong><p>Una copia de seguridad de datos es un proceso simple de
-                  3 pasos:</p></strong>
-
-              Crea copias de tus datos
-              Configura una copia de seguridad automática en la nube, selecciona
-              el hardware para almacenar tus datos o ambos
-              Almacena de forma segura tus archivos copiados en un dispositivo o
-              servicio de respaldo
-              <br>
-              <br>
-              <strong>Crea copias de tus datos</strong>
-              <br>
-              Muchos equipos vienen con software de respaldo instalado, así que
-              probablemente ya tengas una opción en tu dispositivo. La mayoría
-              de los programas de software de respaldo permiten copiar todos los
-              archivos y programas de tu computadora. Si lo prefieres, por lo
-              general también puedes optar por copiar solo los archivos que has
-              cambiado desde tu último respaldo.
-
-              Aquí hay enlaces a utilidades de respaldo en sistemas operativos
-              populares: <br>
-
-              <a
-                href="http://https://support.apple.com/es-lamr/102307">https://support.apple.com/es-lamr/102307</a>
-              <a
-                href="https://support.apple.com/en-us/104984">https://support.apple.com/en-us/104984</a>
-
-              <br>
-              <strong><p>en windows</p></strong>
-
-              <a
-                href="https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup"
-                target="_blank"
-                rel="noopener noreferrer">https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup</a>
-              <a
-                href="https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup"
-                target="_blank"
-                rel="noopener noreferrer">https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup</a>
-
-              <p><strong>Almacena de forma segura los dispositivos de
-                  respaldo</strong></p>
-              Mantén seguros tus dispositivos físicos de respaldo; lo mejor es
-              guardarlos en un lugar separado de tu dispositivo principal,
-              especialmente si los datos son particularmente sensibles. Podrías
-              pedirle a un vecino de confianza o colocarlos en una caja fuerte,
-              pero incluso poner el dispositivo de respaldo en otra habitación
-              añade seguridad. Recuerda que debes respaldar tus archivos con
-              regularidad, así que debes poder recuperar fácilmente tus
-              dispositivos.
-
-              Puedes comprar programas de software de respaldo si quieres más
-              funciones o si tu sistema no incluía uno.
-
-              Idealmente, deberías hacer una copia de seguridad de tus archivos
-              al menos una vez por semana.
-
-              <h2>como hacer una copia de seguridad segura de tus archivos en tu
-                pc</h2>
-              <iframe width="400" height="315"
-                src="https://www.youtube.com/embed/07HKVG5zAAg?si=ezvoCN0UQEITGPq2"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen></iframe><figcaption><small>YouTube (VIDEO)Como
-                  hacer copia de respaldo de tus archivos y PC
-                </small></figcaption>
-
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Concepto</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="1.Tema.html" target="_self">Ciberseguridad</a></li>
+                    <li><a class="dropdown-item" href="2.Tema.html" target="_self">Importancia</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Buenas Prácticas</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" target="_self">Introduccion</a></li>
+                    <li><a class="dropdown-item" href="4.Tema.html" target="_self">Entorno Profesional</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Amenazas</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="5.Tema.html" target="_self">¿Cuál son?</a></li>
+                    <li><a class="dropdown-item" href="6.Tema.html" target="_self">Prevención</a></li>
+                  </ul>
+                </li>
             </div>
           </div>
+        </div>
+    </nav>
+    <br>
+  </header>
 
+
+  <section class="container py-5">
+
+    <div class="text-center mb-5">
+      <h1 class="changa-one-regular">
+        INTRODUCCIÓN A LAS BUENAS PRÁCTICAS
+      </h1>
+      <p class="lead mx-auto" style="max-width: 900px;">
+        Son un conjunto de medidas técnicas y hábitos diarios
+        diseñados para proteger los sistemas, las redes y los
+        datos personales o empresariales frente a amenazas digitales.
+      </p>
+    </div>
+
+    <div class="row g-4 align-items-stretch">
+
+      <!-- COLUMNA 1 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow border-0 rounded-4 overflow-hidden">
+
+          <img src="imagenexpo/imagenes-Alex/img/CONTRASENIA.jpg" class="card-img-top img-fluid"
+            style="height:230px; object-fit:cover;" alt="Contraseña segura">
+
+          <div class="card-body p-4">
+
+            <span class="badge bg-primary mb-2">
+              Protección de cuentas
+            </span>
+
+            <h3 class="habibi-regular">
+              Contraseñas seguras y únicas
+            </h3>
+
+            <p>
+              El 81% de las brechas de seguridad se debe a
+              contraseñas débiles o reutilizadas.
+              <small>Fuente: Microsoft Security Report.</small>
+            </p>
+
+            <p>
+              Es recomendable crear contraseñas fuertes y
+              distintas para cada cuenta, combinando letras,
+              números y símbolos.
+            </p>
+
+            <hr>
+
+            <h5>8 consejos para proteger tus contraseñas</h5>
+
+            <ol class="ps-3">
+              <li class="mb-2">
+                <strong>Utilizá frases largas:</strong>
+                elegí frases fáciles de recordar y agregá
+                mayúsculas, números y símbolos.
+              </li>
+
+              <li class="mb-2">
+                <strong>Evitá datos personales:</strong>
+                no utilices nombres, cumpleaños ni teléfonos.
+              </li>
+
+              <li class="mb-2">
+                <strong>Combiná caracteres:</strong>
+                incorporá mayúsculas, minúsculas, números
+                y símbolos especiales.
+              </li>
+
+              <li class="mb-2">
+                <strong>Usá claves largas:</strong>
+                cuanto más extensa sea, mejor.
+              </li>
+
+              <li class="mb-2">
+                <strong>No reutilices contraseñas:</strong>
+                cada cuenta debe tener una clave diferente.
+              </li>
+
+              <li class="mb-2">
+                <strong>Utilizá un gestor:</strong>
+                almacená tus claves de forma segura.
+              </li>
+
+              <li class="mb-2">
+                <strong>Revisá tus contraseñas:</strong>
+                actualizalas cuando exista una sospecha
+                de exposición.
+              </li>
+
+              <li class="mb-2">
+                <strong>Evitá secuencias simples:</strong>
+                no uses 12345678 ni patrones predecibles.
+              </li>
+            </ol>
+
+            <div class="alert alert-primary">
+              Proteger tus credenciales es fundamental para
+              minimizar los riesgos de ataques digitales.
+            </div>
+
+            <h5>Video recomendado</h5>
+
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/GaZxT9P2tX0" title="Cómo crear contraseñas seguras"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+          </div>
         </div>
       </div>
 
-      <h2>Bibliografia</h2>
-      <a
-        href="https://www.staysafeonline.org/es/art%C3%ADculos/copias-de-seguridad"
-        target="_blank" rel="noopener noreferrer">Copias de Seguridad</a> <br>
-      <a
-        href="https://www.eldestapeweb.com/tecnologia/ciberseguridad/8-consejos-para-tener-una-contrasena-segura-20251125145713"
-        target="_blank" rel="noopener noreferrer">Consejos par tener una
-        contraseña segura</a> <br>
 
-      <a href="https://www.splashtop.com/es/blog/multi-factor-authentication"
-        target="_blank" rel="noopener noreferrer">Autenticación multifactor
-        (MFA)</a>
-      <p>Imagenes generadas por I.A gemini</p>
-    </main>
+      <!-- COLUMNA 2 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow border-0 rounded-4 overflow-hidden">
 
-    <footer class="footer mt-5">
-      <button type="button"
-        class="btn-solid theme-primary bg-info me-auto btn-lg "
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-        <a href="3.Tema.html"
-          class="btn btn-solid theme-primary bg-info me-auto btn-lg">Inicio</a>
+          <img src="imagenexpo/imagenes-Alex/img/contrasenia1.jpg" class="card-img-top img-fluid"
+            style="height:230px; object-fit:cover;" alt="Autenticación multifactor">
 
-      </button>
-      <ul class="social-icon">
-        <li class="icon_elem">
-          <a href="https://www.facebook.com/escfp7/?locale=es_LA"
-            target="_blank" rel="noopener noreferrer" class="icon">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a>
-        </li>
-        <li class="icon_elem">
-          <a href="https://www.instagram.com/efp7ok/?hl=es" target="_blank"
-            rel="noopener noreferrer" class="icon">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-        <li class="icon_elem">
-          <a href="https://wa.me/5493624235608" target="_blank"
-            rel="noopener noreferrer" class="icon">
-            <ion-icon name="logo-whatsapp"></ion-icon>
-          </a>
-        </li>
-        <li class="icon_elem">
-          <a href="mailto:escuelafp7@gmail.com" target="_blank"
-            rel="noopener noreferrer" class="icon">
-            <ion-icon name="mail-outline"></ion-icon>
-          </a>
-        </li>
-      </ul>
-      <ul class="menu">
+          <div class="card-body p-4">
 
-        <li class=" menu_elem">
-          <a href="#" class="menu_icon">facebook</a>
-        </li>
-        <li class=" menu_elem">
-          <a href="#" class="menu_icon">Instagram</a>
-        </li>
-        <li class=" menu_elem">
-          <a href="#" class="menu_icon">whatsapp</a>
-        </li>
-        <li class=" menu_elem">
-          <a href="https://ifts1.com.ar/institucion-educativa/e-f-p-n7/"
-            target="_blank" rel="noopener noreferrer" class="menu_icon">Quienes
-            Somos</a>
-        </li>
+            <span class="badge bg-success mb-2">
+              Seguridad de acceso
+            </span>
 
-      </ul>
-      <ul>
-        <li class="menu_elem"><i>Alumno:Rodriguez Javier Alex - EFP N°7 - 2026
-          </i></li>
-      </ul>
+            <h3 class="habibi-regular">
+              Autenticación multifactor (MFA)
+            </h3>
 
-    </footer>
-    <script type="module"
-      src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule
-      src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous">
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css");</script>
+            <p>
+              La autenticación multifactor es un método de
+              seguridad que requiere verificar la identidad
+              mediante dos o más factores independientes.
+            </p>
+
+            <h5>¿Qué factores utiliza?</h5>
+
+            <ul class="ps-3">
+              <li class="mb-2">
+                <strong>Algo que sabés:</strong>
+                una contraseña o PIN.
+              </li>
+
+              <li class="mb-2">
+                <strong>Algo que tenés:</strong>
+                un celular o token de seguridad.
+              </li>
+
+              <li class="mb-2">
+                <strong>Algo que sos:</strong>
+                una huella dactilar o reconocimiento facial.
+              </li>
+            </ul>
+
+            <hr>
+
+            <h5>¿Cómo funciona?</h5>
+
+            <p>
+              Primero, el usuario ingresa su contraseña.
+              Luego, el sistema solicita una segunda
+              verificación, como un código temporal o
+              reconocimiento biométrico.
+            </p>
+
+            <h5>Métodos de autenticación</h5>
+
+            <div class="list-group mb-3">
+
+              <div class="list-group-item">
+                <strong>1. Autenticación 2FA</strong>
+                <p class="mb-0">
+                  Contraseña más un código enviado al teléfono.
+                </p>
+              </div>
+
+              <div class="list-group-item">
+                <strong>2. Aplicaciones autenticadoras</strong>
+                <p class="mb-0">
+                  Generan códigos temporales de acceso.
+                </p>
+              </div>
+
+              <div class="list-group-item">
+                <strong>3. Biometría</strong>
+                <p class="mb-0">
+                  Utiliza huellas dactilares o reconocimiento facial.
+                </p>
+              </div>
+
+              <div class="list-group-item">
+                <strong>4. Tokens de hardware</strong>
+                <p class="mb-0">
+                  Llaves físicas USB para verificar la identidad.
+                </p>
+              </div>
+
+              <div class="list-group-item">
+                <strong>5. OTP por SMS o correo</strong>
+                <p class="mb-0">
+                  Códigos de un solo uso para iniciar sesión.
+                </p>
+              </div>
+
+              <div class="list-group-item">
+                <strong>6. Reconocimiento de dispositivos</strong>
+                <p class="mb-0">
+                  Identifica dispositivos previamente registrados.
+                </p>
+              </div>
+
+            </div>
+
+            <div class="alert alert-success">
+              <strong>Beneficios de MFA</strong>
+              <ul class="mb-0">
+                <li>Reduce accesos no autorizados.</li>
+                <li>Protege frente al phishing.</li>
+                <li>Previene el robo de credenciales.</li>
+                <li>Genera confianza en los usuarios.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- COLUMNA 3 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow border-0 rounded-4 overflow-hidden">
+
+          <img src="imagenexpo/imagenes-Alex/img/contrasenia2.jpg" class="card-img-top img-fluid"
+            style="height:230px; object-fit:cover;" alt="Actualizaciones y copias de seguridad">
+
+          <div class="card-body p-4">
+
+            <span class="badge bg-warning text-dark mb-2">
+              Protección de información
+            </span>
+
+            <h3 class="habibi-regular">
+              Actualizaciones y copias de seguridad
+            </h3>
+
+            <p>
+              Las actualizaciones y las copias de seguridad
+              son dos pilares fundamentales de la
+              ciberseguridad para prevenir ataques,
+              corregir vulnerabilidades y asegurar
+              la continuidad operativa.
+            </p>
+
+            <h5>¿Por qué son importantes?</h5>
+
+            <p>
+              Nuestros dispositivos contienen información
+              importante: fotografías, documentos,
+              registros financieros y datos personales.
+            </p>
+
+            <p>
+              Esta información puede perderse por fallas
+              del equipo, errores de software, virus,
+              ransomware o desastres naturales.
+            </p>
+
+            <hr>
+
+            <h5>¿Cómo realizar una copia de seguridad?</h5>
+
+            <p>
+              Una copia de seguridad permite conservar
+              archivos importantes y recuperarlos cuando
+              ocurre algún inconveniente.
+            </p>
+
+            <div class="list-group mb-3">
+
+              <div class="list-group-item">
+                <strong>1. Crear copias de los datos</strong>
+                <p class="mb-0">
+                  Seleccioná los documentos y archivos
+                  que necesitás proteger.
+                </p>
+              </div>
+
+              <div class="list-group-item">
+                <strong>2. Configurar respaldos automáticos</strong>
+                <p class="mb-0">
+                  Utilizá servicios en la nube o dispositivos
+                  externos para almacenar tus archivos.
+                </p>
+              </div>
+
+              <div class="list-group-item">
+                <strong>3. Guardar los respaldos de forma segura</strong>
+                <p class="mb-0">
+                  Conservá los dispositivos de respaldo
+                  en un lugar seguro y separado.
+                </p>
+              </div>
+
+            </div>
+
+            <h5>Herramientas de respaldo</h5>
+
+            <p><strong>Apple:</strong></p>
+            <a href="https://support.apple.com/es-lamr/102307" target="_blank" rel="noopener noreferrer">
+              Soporte de Apple
+            </a>
+
+            <p class="mt-3"><strong>Windows:</strong></p>
+            <a href="https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup"
+              target="_blank" rel="noopener noreferrer">
+              Copias de seguridad de Windows
+            </a>
+
+            <hr>
+
+            <h5>Video recomendado</h5>
+
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/07HKVG5zAAg" title="Cómo realizar una copia de seguridad"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+            <div class="alert alert-warning mt-3">
+              Realizá copias de seguridad periódicamente
+              para evitar la pérdida de información.
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <h2>Bibliografia</h2>
+  <a href="https://www.staysafeonline.org/es/art%C3%ADculos/copias-de-seguridad" target="_blank"
+    rel="noopener noreferrer">Copias de Seguridad</a> <br>
+  <a href="https://www.eldestapeweb.com/tecnologia/ciberseguridad/8-consejos-para-tener-una-contrasena-segura-20251125145713"
+    target="_blank" rel="noopener noreferrer">Consejos par tener una contraseña segura</a> <br>
+
+  <a href="https://www.splashtop.com/es/blog/multi-factor-authentication" target="_blank"
+    rel="noopener noreferrer">Autenticación multifactor (MFA)</a>
+  <p>Imagenes generadas por I.A gemini</p>
+  </main>
+
+  <footer class="footer mt-5">
+    <button type="button" class="btn-solid theme-primary bg-info me-auto btn-lg "
+      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+      <a href="3.Tema.html" class="btn btn-solid theme-primary bg-info me-auto btn-lg">Inicio</a>
+    </button>
+    <ul class="social-icon">
+      <li class="icon_elem">
+        <a href="https://www.facebook.com/escfp7/?locale=es_LA" target="_blank" rel="noopener noreferrer" class="icon">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </li>
+      <li class="icon_elem">
+        <a href="https://www.instagram.com/efp7ok/?hl=es" target="_blank" rel="noopener noreferrer" class="icon">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </li>
+      <li class="icon_elem">
+        <a href="https://wa.me/5493624235608" target="_blank" rel="noopener noreferrer" class="icon">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+      </li>
+      <li class="icon_elem">
+        <a href="mailto:escuelafp7@gmail.com" target="_blank" rel="noopener noreferrer" class="icon">
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
+      </li>
+    </ul>
+    <ul class="menu">
+
+      <li class="menu_elem">
+        <a href="https://www.facebook.com/escfp7/?locale=es_LA" target="_blank" rel="noopener noreferrer"
+          class="menu_icon">facebook</a>
+      </li>
+      <li class="menu_elem">
+        <a href="https://www.instagram.com/efp7ok/?hl=es" target="_blank" rel="noopener noreferrer"
+          class="menu_icon">Instagram</a>
+      </li>
+      <li class="menu_elem">
+        <a href="https://wa.me/5493624235608" target="_blank" rel="noopener noreferrer" class="menu_icon">whatsapp</a>
+      </li>
+      <li class="menu_elem">
+        <a href="https://ifts1.com.ar/institucion-educativa/e-f-p-n7/" target="_blank" rel="noopener noreferrer"
+          class="menu_icon">Quienes Somos</a>
+      </li>
+    </ul>
+    <ul>
+      <li class="menu_elem"><i>Alumno:Rodriguez Javier Alex - EFP N°7 - 2026 </i></li>
+    </ul>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+      @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css");</script>
+</body>
+
 </html>

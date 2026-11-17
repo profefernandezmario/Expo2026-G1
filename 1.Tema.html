@@ -1,414 +1,452 @@
-<!-- corregido y observado -->
-
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="shortcut icon" href="iconosexpo/dispositivo.png">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CiberSeguridad</title>
-        <link rel="stylesheet" href="css/estilos.css">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-            crossorigin="anonymous">
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
-        <meta name="description"
-            content="Trabajo Practico para exhibir en la EXPO 2026">
-        <meta name="author"
-            content="Desarrollador Web Jr. - Grupo Lunes y Martes - Docente Mario R. Fernandez">
-        <meta name="keywords"
-            content="HTML5, CSS3, desarrollo web, efp7, resistencia, expo, educacion tecnica, grupo 1, Frontend">
-        <!-- lo siguiente Indica a los rastreadores de los buscadores si deben indexar la página o seguir los enlaces. -->
-        <meta name="robots" content="index, follow">
-    </head>
-    <body class="body">
-        <header>
-            <nav class="navbar navbar-expand-md bg-body-tertiary">
-                <div class="container">
-                    <a class="navbar-brand" href="Index.html"
-                        target="_self"><img
-                            src="imagenexpo/Logos/efp-logo-blanco.jpeg" alt
-                            width="100px"
-                            height="50px"></a>
-                    <div class="navbar navbar-expand-md bg-body-tertiary">
-                        <div class="container">
-                            <button class="navbar-toggler" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavDropdown"
-                                aria-controls="navbarNavDropdown"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse"
-                                id="navbarNavDropdown">
-                                <ul class="navbar-nav ms-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link active"
-                                            aria-current="page"
-                                            href="#http://127.0.0.1:5500/fron/pamela%20farias/FRON/trabajoexpo/Index.html"></a>
-                                    </li>
+<html lang="es-AR">
 
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle"
-                                            href="#" role="button"
-                                            data-bs-toggle="dropdown"
-                                            aria-expanded="false">Concepto</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item"
-                                                    href="#"
-                                                    target="_self">Ciberseguridad</a></li>
-                                            <li><a class="dropdown-item"
-                                                    href="#"
-                                                    target="_self">Importancia</a></li>
-                                        </ul></li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle"
-                                            href="#" role="button"
-                                            data-bs-toggle="dropdown"
-                                            aria-expanded="false">Buenas
-                                            Prácticas</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item"
-                                                    href="3.Tema.html"
-                                                    target="_self">Introduccion</a></li>
-                                            <li><a class="dropdown-item"
-                                                    href="4.Tema.html"
-                                                    target="_self">Entorno
-                                                    Profesional</a></li>
-                                        </ul></li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle"
-                                            href="#" role="button"
-                                            data-bs-toggle="dropdown"
-                                            aria-expanded="false">Amenazas</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item"
-                                                    href="5.Tema.html"
-                                                    target="_self">¿Cuál
-                                                    son?</a></li>
-                                            <li><a class="dropdown-item"
-                                                    href="6.Tema.html"
-                                                    target="_self">Prevención</a></li>
-                                        </ul></li>
-                                </div>
-                            </div>
+<head>
+    <link rel="shortcut icon" href="iconosexpo/dispositivo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiberSeguridad</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="trabajo integrador preparatorio para el examen final de FrontEnd - 2026">
+    <meta name="author" content="Grupo #1 - Lunes y Martes 14-18hs">
+    <meta name="keywords"
+        content="HTML5, CSS3, desarrollo web, Ciberseguridad, efp7, resistencia, chaco, educacion, formacion profesional">
+    <!-- lo siguiente Indica a los rastreadores de los buscadores si deben indexar la página o seguir los enlaces. -->
+    <meta name="robots" content="index, follow">
+</head>
+
+<body class="body">
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" target="_self"><img
+                        src="imagenexpo/Logos/efp-logo-blanco.jpeg" alt="" width="100px" height="50px"></a>
+                <div class="navbar navbar-expand-md">
+                    <div class="container">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html"></a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Concepto</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#" target="_self">Ciberseguridad</a></li>
+                                        <li><a class="dropdown-item" href="2.Tema.html" target="_self">Importancia</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Buenas Prácticas</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="3.Tema.html" target="_self">Introduccion</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="4.Tema.html" target="_self">Entorno
+                                                Profesional</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Amenazas</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="5.Tema.html" target="_self">¿Cuál son?</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="6.Tema.html" target="_self">Prevención</a>
+                                        </li>
+                                    </ul>
+                                </li>
                         </div>
-                    </nav>
-                    <br>
-                    <main>
-                        <div class="container">
-                            <h1 class="changa-one-regular"
-                                id="1.Tema.html">CiberSeguridad</h1>
-                            <br>
+                    </div>
+                </div>
+        </nav>
+        <br>
+        <main>
+            <div class="container">
+                <h1 class="changa-one-regular" id="1.Tema.html">CiberSeguridad</h1>
+                <br>
 
-                            <br>
-                            <img
-                                src="imagenexpo/imagnes-pame/Ciberseguridad_-protección-tema1.jpg"
-                                class="img-fluid rounded-3"
-                                style="max-width: 100%; height: auto;"
-                                alt="..."><figcaption
-                                class="figure-caption">Imagen generada por I.A
+                <br>
+                <img src="imagenexpo/imagnes-pame/Ciberseguridad_-protección-tema1.jpg" class="img-fluid rounded-3"
+                    style="max-width: 100%; height: auto;" alt="...">
+                <figcaption class="figure-caption">Imagen generada por I.A </figcaption>
+
+                <br>
+                <br>
+            </div>
+
+
+            <div class="container">
+                <div class="row align-items-stretch g-4">
+
+                    <div class="col-12 col-md-5">
+                        <figure class="h-100 mb-0 text-center">
+                            <img src="imagenexpo/imagnes-pame/imagen3.jpg"
+                                class="img-fluid rounded-4 width=300px h-100 " alt="Imagen de ciberseguridad">
+
+                            <figcaption>
+                                Imagen generada por I.A.
                             </figcaption>
+                        </figure>
+                    </div>
 
-                            <br>
-                            <br>
+                    <div class="col-12 col-md-7">
+                        <div class="bg-light rounded-4 shadow-sm p-4 h-100">
+
+                            <h3 class="text-primary mb-3">
+                                Categorías de la ciberseguridad
+                            </h3>
+
+                            <p>
+                                El término <b>ciberseguridad</b> se aplica en diversos
+                                contextos: desde empresas y computación móvil hasta
+                                servicios en la nube, dispositivos conectados e
+                                identidades digitales. Puede dividirse en varias categorías:
+                            </p>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-transparent py-3">
+                                    <b class="text-primary">Seguridad de red:</b>
+                                    protege una red informática contra intrusos,
+                                    atacantes dirigidos y malware oportunista.
+                                </li>
+
+                                <li class="list-group-item bg-transparent py-3">
+                                    <b class="text-primary">Seguridad de aplicaciones:</b>
+                                    mantiene el software y los dispositivos libres
+                                    de amenazas. La seguridad comienza desde la fase
+                                    de diseño.
+                                </li>
+
+                                <li class="list-group-item bg-transparent py-3">
+                                    <b class="text-primary">Seguridad de la información:</b>
+                                    protege la integridad y privacidad de los datos,
+                                    tanto almacenados como durante su transmisión.
+                                </li>
+                            </ul>
+
                         </div>
-                        <div class="container">
-                            <div class="row">
-                                <div
-                                    class=" col-6 col-12 -md-4 mb-3 text-center">
-                                    <figure class="figure align-items-end">
-                                        <img
-                                            src="imagenexpo/imagnes-pame/imagen3.jpg"
-                                            class="img-fluid rounded-3"
-                                            alt="Imagen1ciberseguridad"
-                                            style="max-height:350px;">
-                                        <figcaption
-                                            class="figure-caption">Imagen
-                                            generada por I.A </figcaption>
-                                    </figure>
-                                </div>
-                                <div class=" col-6 col-12 -md-4 mb-3 ms-auto">El
-                                    término <b>"ciberseguridad"</b> se aplica en
-                                    diversos contextos: desde
-                                    empresas y computación móvil hasta servicios
-                                    en
-                                    la nube, dispositivos conectados e
-                                    identidades digitales, y puede dividirse en
-                                    varias categorías;
-                                    <br>
-                                    <br>
-                                    <ul>
-                                        <li> <b>Seguridad de red:</b> es la
-                                            práctica de proteger una red
-                                            informática contra intrusos, ya sean
-                                            atacantes dirigidos u
-                                            malware oportunista.
-                                        </li>
-                                        <br>
-                                        <br>
-                                        <li> <b>Seguridad de aplicaciones:</b>
-                                            se enfoca en mantener el software y
-                                            los dispositivos libres de
-                                            amenazas. Una aplicación
-                                            comprometida puede dar acceso a los
-                                            datos que debería proteger. La
-                                            seguridad eficaz empieza
-                                            en la fase de diseño,
-                                            mucho antes de desplegar un programa
-                                            o dispositivo.
-                                        </li>
-                                        <br>
-                                        <br>
-                                        <li>
-                                            <b>Seguridad de la información:</b>
-                                            protege la integridad y la
-                                            privacidad de los datos, tanto en
-                                            reposo como en tránsito.
-                                            Seguridad operativa incluye los
-                                            procesos y decisiones para manejar y
-                                            proteger los activos de
-                                            datos. Los permisos
-                                            de los usuarios al acceder a una red
-                                            y los procedimientos que determinan
-                                            cómo y dónde se
-                                            almacenan o comparten los
-                                            datos forman parte de este ámbito.
-                                        </li>
-                                        <br>
-                                        <br>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="container">
-                                <div class="row">
-                                    <div
-                                        class="col-6 col1 col-12 -md-4 mb-3">Recuperación
-                                        ante desastres y continuidad del negocio
-                                        definen cómo responde
-                                        una organización a un incidente de
-                                        ciberseguridad o a cualquier evento que
-                                        provoque la pérdida de operaciones o
-                                        datos. Las
-                                        políticas de recuperación
-                                        ante desastres establecen cómo la
-                                        organización restablece sus operaciones
-                                        e información para
-                                        volver a la misma
-                                        capacidad operativa previa al suceso. La
-                                        continuidad del negocio es el plan al
-                                        que la
-                                        organización recurre
-                                        mientras intenta operar sin ciertos
-                                        recursos.</div>
-                                    <div
-                                        class="col-6 col1 col-12 md-4 mb-3">Educación
-                                        del usuario final aborda el factor más
-                                        impredecible en
-                                        ciberseguridad: las personas. Cualquiera
-                                        puede
-                                        introducir accidentalmente un virus en
-                                        un sistema por no seguir buenas
-                                        prácticas de seguridad.
-                                        Enseñar a los
-                                        usuarios a borrar adjuntos sospechosos,
-                                        no conectar unidades USB desconocidas y
-                                        otras lecciones
-                                        importantes es
-                                        vital para la seguridad de cualquier
-                                        organización.</div>
+                    </div>
 
-                                </div>
-                                <br>
-                            </div>
+                </div>
+            </div>
+            <br>
 
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-8 col1 col-12 -md-4 mb-3">
-                                        <li>
-                                            <h6><b>Los correos de phishing, los
-                                                    ataques de ransomware, las
-                                                    contraseñas robadas y las
-                                                    filtraciones de datos pueden
-                                                    afectar a
-                                                    cualquiera</b></h6>
-                                        </li>
-                                        <br>
-                                        A medida que más aspectos de nuestra
-                                        vida se trasladan en línea, comprender
-                                        cómo funcionan las
-                                        amenazas cibernéticas y cómo defenderse
-                                        de ellas es cada vez más ahí es donde
-                                        entra la
-                                        ciberseguridad.
-                                        <br>
-                                        Lo que necesita saber:
-                                        <br>
-                                        La ciberseguridad protege dispositivos,
-                                        redes y datos frente a ataques que
-                                        buscan dinero,
-                                        información personal y los servicios de
-                                        los que la gente depende.
-                                        <br>
-                                        La mayoría de los incidentes comienzan
-                                        con una persona, no con una máquina; un
-                                        clic descuidado
-                                        puede anular el
-                                        software que lo protege.
-                                        <br>
-                                        El phishing, el malware y las
-                                        contraseñas débiles siguen siendo las
-                                        vías más comunes por las que
-                                        los atacantes
-                                        entran.
-                                        <br>
-                                        Hoy los atacantes usan AI, proveedores
-                                        de confianza y configuraciones erróneas
-                                        en la nube para
-                                        alcanzar más víctimas más rápido.
-                                        <br>
-                                        La resiliencia implica planear para
-                                        detectar, responder y recuperarse, no
-                                        solo intentar bloquear
-                                        cada ataque.</p>
-                                    <br>
-                                </div>
-                                <div
-                                    class="col-4 col1 ms-auto col-12 -md-4 mb-3"></div>
 
-                            </div>
-                        </div>
-                        <h5>(VIDEO) CASO; El JOVEN Que Puso En Jaque La
-                            SEGURIDAD INFORMÁTICA De Estados Unidos</h5>
-                        <br>
-                        <video
-                            src="imagenexpo/imagnes-pame/el-joven-que-puso-en-jaque-la-seguridad-informática-de-estados-tema1.mp4"
-                            width="900px" loop muted
-                            controls></video><figcaption><small>YouTube (VIDEO)
-                                de un Joven hacker</small></figcaption>
-                        <br>
-                        <br>
-                    </main>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne"
-                                    aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    CiberSeguridad
-                                </button>
-                            </h2>
-                            <div id="collapseOne"
-                                class="accordion-collapse collapse show"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Fuentes</strong>
-                                    <code> </code>
-                                    <ul>
-                                        <li><a
-                                                href="https://latam.kaspersky.com/resource-center/definitions/what-is-cyber-security"
-                                                target="_self"
-                                                rel="noopener noreferrer">Ciberseguridad</a></li>
-                                        <li><a
-                                                href="https://www.verisure.com.ar/blog/que-es-la-ciberseguridad-y-por-que-es-importante-en-argentina"
-                                                target="_self"
-                                                rel="noopener noreferrer">Tipos
-                                                de seguridad
-                                                informática</a></li>
-                                        <br>
-                                        <li><a
-                                                href="https://www.youtube.com/watch?v=OXsWAU_5MZE">(Video)
-                                                CASO; El JOVEN Que Puso En Jaque
-                                                La SEGURIDAD INFORMÁTICA De
-                                                Estados Unidos</a></li>
-                                    </ul>
-                                </div>
+            <div class="container">
+                <div class="row g-4">
+
+                    <div class="col-12 col-md-6">
+                        <div class="card h-100 border-0 shadow-sm rounded-4">
+                            <div class="card-body p-4">
+
+                                <h4 class="text-primary mb-3">
+
+                                    Recuperación ante desastres y continuidad del negocio
+                                </h4>
+
+                                <p class="text-secondary text-justify">
+                                    La recuperación ante desastres y continuidad del
+                                    negocio definen cómo responde una organización a
+                                    un incidente de ciberseguridad o a cualquier evento
+                                    que provoque la pérdida de operaciones o datos.
+                                </p>
+
+                                <p class="text-secondary">
+                                    Las políticas de recuperación ante desastres
+                                    establecen cómo la organización restablece sus
+                                    operaciones e información para volver a la misma
+                                    capacidad operativa previa al suceso.
+                                </p>
+
+                                <p class="text-secondary mb-0">
+                                    La continuidad del negocio es el plan al que la
+                                    organización recurre mientras intenta operar sin
+                                    ciertos recursos.
+                                </p>
+
                             </div>
                         </div>
                     </div>
-                    <br>
-                    <footer class="footer mt-5">
-                        <button type="button"
-                            class="btn-solid theme-primary bg-info me-auto btn-lg "
-                            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                            <a href="1.Tema.html"
-                                class="btn btn-solid theme-primary bg-info me-auto btn-lg">Inicio</a>
 
-                        </button>
-                        <ul class="social-icon">
-                            <li class="icon_elem">
-                                <a
-                                    href="https://www.facebook.com/escfp7/?locale=es_LA"
-                                    target="_blank" rel="noopener noreferrer"
-                                    class="icon">
-                                    <ion-icon name="logo-facebook"></ion-icon>
-                                </a>
-                            </li>
-                            <li class="icon_elem">
-                                <a
-                                    href="https://www.instagram.com/efp7ok/?hl=es"
-                                    target="_blank" rel="noopener noreferrer"
-                                    class="icon">
-                                    <ion-icon name="logo-instagram"></ion-icon>
-                                </a>
-                            </li>
-                            <li class="icon_elem">
-                                <a href="https://wa.me/5493624235608"
-                                    target="_blank" rel="noopener noreferrer"
-                                    class="icon">
-                                    <ion-icon name="logo-whatsapp"></ion-icon>
-                                </a>
-                            </li>
-                            <li class="icon_elem">
-                                <a href="mailto:escuelafp7@gmail.com"
-                                    target="_blank" rel="noopener noreferrer"
-                                    class="icon">
-                                    <ion-icon name="mail-outline"></ion-icon>
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="menu">
+                    <div class="col-12 col-md-6">
+                        <div class="card h-100 border-0 shadow-sm rounded-4">
+                            <div class="card-body p-4">
 
-                            <li class="menu_elem">
-                                <a
-                                    href="https://www.facebook.com/escfp7/?locale=es_LA"
-                                    target="_blank" rel="noopener noreferrer"
-                                    class="menu_icon">facebook</a>
-                            </li>
-                            <li class="menu_elem">
-                                <a
-                                    href="https://www.instagram.com/efp7ok/?hl=es"
-                                    target="_blank" rel="noopener noreferrer"
-                                    class="menu_icon">Instagram</a>
-                            </li>
-                            <li class="menu_elem">
-                                <a href class="menu_icon">whatsapp</a>
-                            </li>
-                            <li class="menu_elem">
-                                <a
-                                    href="https://ifts1.com.ar/institucion-educativa/e-f-p-n7/"
-                                    target="_blank" rel="noopener noreferrer"
-                                    class="menu_icon">Quienes Somos</a>
-                            </li>
+                                <h4 class="text-primary mb-3">
 
-                        </ul>
+                                    Educación del usuario final
+                                </h4>
 
-                    </footer>
-                    <script type="module"
-                        src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
-                    <script nomodule
-                        src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
-                </body>
-                <script
-                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-                    crossorigin="anonymous">
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css");</script>
-            </html>
+                                <p class="text-secondary">
+                                    La educación del usuario final aborda el factor
+                                    más impredecible en ciberseguridad: las personas.
+                                    Cualquiera puede introducir accidentalmente un
+                                    virus en un sistema por no seguir buenas prácticas
+                                    de seguridad.
+                                </p>
+
+                                <p class="text-secondary mb-0">
+                                    Enseñar a los usuarios a borrar adjuntos sospechosos,
+                                    no conectar unidades USB desconocidas y otras
+                                    lecciones importantes es vital para la seguridad
+                                    de cualquier organización.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <article>
+                <br>
+                <br>
+                <h4 class="text-center"><b>Los correos de phishing, los ataques de ransomware, las
+                        contraseñas robadas y las filtraciones de datos pueden
+                        afectar a cualquiera</b></h4>
+                <br>
+                <br>
+                <div class="container ">
+
+                    <div class="row justify-content-center">
+
+                        <div class="col-12 col-md-10 col-lg-8">
+
+                            <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
+
+
+                                <div class="card-header bg-primary text-white text-center py-4">
+                                    <h3 class="card-title mb-2">
+
+                                        Ciberseguridad
+                                    </h3>
+                                    <p class="mb-0">
+                                        Protegé tu información en el mundo digital
+                                    </p>
+                                </div>
+
+
+                                <div class="card-body p-4">
+
+                                    <h5 class="text-primary mb-3">
+                                        ¿Por qué es importante?
+                                    </h5>
+
+                                    <p class="card-text text-secondary">
+                                        A medida que más aspectos de nuestra vida se
+                                        trasladan en línea, comprender cómo funcionan
+                                        las amenazas cibernéticas y cómo defenderse
+                                        de ellas es cada vez más importante.
+                                    </p>
+
+                                    <hr>
+
+                                    <h5 class="text-primary mb-3">
+                                        Lo que necesitás saber
+                                    </h5>
+
+                                    <div class="row g-3">
+
+                                        <div class="col-12 col-md-6">
+                                            <div class="card h-100 bg-light border-0 p-3">
+                                                <div class="card-body">
+                                                    <h5 class="text-success">
+
+                                                        Protección digital
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        Protege dispositivos, redes y datos
+                                                        frente a ataques informáticos.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <div class="card h-100 bg-light border-0 p-3">
+                                                <div class="card-body">
+                                                    <h5 class="text-warning">
+
+                                                        Factor humano
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        Un clic descuidado puede comprometer
+                                                        nuestra seguridad.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <div class="card h-100 bg-light border-0 p-3">
+                                                <div class="card-body">
+                                                    <h5 class="text-danger">
+
+                                                        Amenazas frecuentes
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        El phishing, el malware y las
+                                                        contraseñas débiles son riesgos
+                                                        habituales.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <div class="card h-100 bg-light border-0 p-3">
+                                                <div class="card-body">
+                                                    <h5 class="text-info">
+
+                                                        Nuevos desafíos
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        La inteligencia artificial y los
+                                                        servicios en la nube generan nuevos
+                                                        retos de seguridad.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="alert alert-primary text-center mb-0">
+                                        <strong>
+                                            ¡La prevención es nuestra mejor defensa!
+                                        </strong>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="card-footer text-center text-muted bg-white">
+                                    Educación y prevención en ciberseguridad
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </article>
+            <h5>(VIDEO) CASO; El JOVEN Que Puso En Jaque La SEGURIDAD INFORMÁTICA De Estados Unidos</h5>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OXsWAU_5MZE?si=QMVyPFpeWYg-VAJa"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <figcaption><small>YouTube (VIDEO) de un Joven hacker</small></figcaption>
+            <br>
+            <br>
+        </main>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        CiberSeguridad
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="texto-negrita">Fuentes</p>
+                        <br>
+
+
+                        <a href="https://latam.kaspersky.com/resource-center/definitions/what-is-cyber-security"
+                            target="_blank" rel="noopener noreferrer">Ciberseguridad</a><br>
+                        <a href="https://www.verisure.com.ar/blog/que-es-la-ciberseguridad-y-por-que-es-importante-en-argentina"
+                            target="_blank" rel="noopener noreferrer">Tipos de seguridad informática</a><br>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=OXsWAU_5MZE" target="_blank"
+                            rel="noopener noreferrer">(Video) CASO; El JOVEN Que Puso En Jaque La SEGURIDAD INFORMÁTICA
+                            De Estados Unidos</a><br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <footer class="footer mt-5">
+            <a href="1.Tema.html" class="btn btn-solid theme-primary bg-info me-auto btn-lg">Inicio
+                <button type="button" class="btn-solid theme-primary bg-info me-auto btn-lg "
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                </button>
+            </a>
+            <ul class="social-icon">
+                <li class="icon_elem">
+                    <a href="https://www.facebook.com/escfp7/?locale=es_LA" target="_blank" rel="noopener noreferrer"
+                        class="icon">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li class="icon_elem">
+                    <a href="https://www.instagram.com/efp7ok/?hl=es" target="_blank" rel="noopener noreferrer"
+                        class="icon">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+                <li class="icon_elem">
+                    <a href="https://wa.me/5493624235608" target="_blank" rel="noopener noreferrer" class="icon">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </li>
+                <li class="icon_elem">
+                    <a href="mailto:escuelafp7@gmail.com" target="_blank" rel="noopener noreferrer" class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+
+                <li class="menu_elem">
+                    <a href="https://www.facebook.com/escfp7/?locale=es_LA" target="_blank" rel="noopener noreferrer"
+                        class="menu_icon">facebook</a>
+                </li>
+                <li class="menu_elem">
+                    <a href="https://www.instagram.com/efp7ok/?hl=es" target="_blank" rel="noopener noreferrer"
+                        class="menu_icon">Instagram</a>
+                </li>
+                <li class="menu_elem">
+                    <a href="https://wa.me/5493624235608" target="_blank" rel="noopener noreferrer"
+                        class="menu_icon">whatsapp</a>
+                </li>
+                <li class="menu_elem">
+                    <a href="https://ifts1.com.ar/institucion-educativa/e-f-p-n7/" target="_blank"
+                        rel="noopener noreferrer" class="menu_icon">Quienes Somos</a>
+                </li>
+
+            </ul>
+
+
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css");</script>
+
+</html>

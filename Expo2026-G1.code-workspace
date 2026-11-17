@@ -6,5 +6,8 @@
 		{
 			"path": "../../../2026-G2/Expo/Expo2026-G2"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Expo2026-G1"
+	}
 }
